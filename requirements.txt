@@ -1,0 +1,26 @@
+# Core API and ML dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+langchain==0.1.0
+langchain-ollama==0.1.0
+pydantic==2.5.0
+
+# PaddleOCR and dependencies - Primary OCR engine
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# Image processing and OCR for AI-powered amount detection
+opencv-python==4.8.1.78
+Pillow==10.1.0
+pytesseract==0.3.10
+easyocr==1.7.0
+
+# Numeric and text processing
+numpy==1.24.3
+regex==2023.10.3
+
+# File handling and utilities
+python-multipart==0.0.6
+
+# Optional: For better OCR accuracy
+scikit-image==0.21.0
