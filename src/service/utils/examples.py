@@ -2,10 +2,10 @@ from random import randint
 
 def load_sample_data(i: int) -> str:
     ip, op = "", ""
-    with open(f"parsed_img/medbill{i}_clean_lines.txt", "r", encoding="utf-8") as f:
+    with open(f"../parsed_img/medbill{i}_clean_lines.txt", "r", encoding="utf-8") as f:
         ip = f.read()
     
-    with open(f"parsed_output/medbill{i}_op.txt", "r", encoding="utf-8") as f:
+    with open(f"../parsed_output/medbill{i}_op.txt", "r", encoding="utf-8") as f:
         op = f.read()
 
     return ip, op

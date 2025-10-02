@@ -1,5 +1,5 @@
 from google import genai
-from examples import get_examples
+from service.utils.examples import get_examples
 
 def get_structured_invoice(query_invoice: str) -> str:
     client = genai.Client()
