@@ -78,14 +78,10 @@ def process_image_to_lines(image_path: str) -> List[Tuple[str, float]]:
         save_lines_to_file(lines_with_confidence, image_path)
     return lines_with_confidence
 
+if __name__ == "__main__":
 
-def main():
     imgs = os.listdir('img')
     for img in imgs:
         image_path = os.path.join('img', img)
         if os.path.exists(image_path):
             process_image_to_lines(image_path)
-
-
-if __name__ == "__main__":
-    main()
