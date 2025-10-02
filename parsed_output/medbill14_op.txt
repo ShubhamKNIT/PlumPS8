@@ -1,0 +1,19 @@
+{
+  "total_charges": "$3,376.75",
+  "amount_paid": "$1,525.39",
+  "amount_due": "$1,851.36",
+  "currency": "USD",
+  "confidence": 0.85,
+  "calculation_method": "complex_itemized_billing_with_reimbursements",
+  "extracted_data": {
+    "room_board_unit": "$438.75 × 5 = total_visible",
+    "electrocardiogram": "multiple entries",
+    "blood_work_tests": "multiple lab tests",
+    "medications": "Lasix, Mylanta liquid",
+    "medical_procedures": "various diagnostic tests",
+    "total_charges": "$3,376.75",
+    "reimbursement_cost": "$1,525.39",
+    "patient_balance": "$1,851.36",
+    "note": "Complex bill with multiple cost categories and reimbursements"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "total_charges": "$3,650.00",
+  "amount_paid": "$0.00",
+  "amount_due": "$3,650.00",
+  "currency": "USD",
+  "confidence": 0.95,
+  "calculation_method": "itemized_hospital_bill_calculation",
+  "extracted_data": {
+    "primary_code_charges": "$1,650.00",
+    "room_nursing_charges": "$1,650.00",
+    "ot_charges": "$1,000.00",
+    "professional_fees": "$1,000.00",
+    "total_bill_amount": "$3,650.00",
+    "amount_payable": "$3,650.00",
+    "amount_paid": "$0.00",
+    "balance": "$3,650.00",
+    "paid_amount_in_words": "Zero",
+    "bed_charges_general": "$250.00",
+    "nursing_fees_general": "$250.00",
+    "blood_transfusion_charges": "$1,000.00",
+    "major_ot_charge": "$1,000.00",
+    "doctor_fee_dr_akshara_raje": "$500.00"
+  }
+}

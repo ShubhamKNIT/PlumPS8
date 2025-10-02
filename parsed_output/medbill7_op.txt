@@ -1,0 +1,21 @@
+{
+  "total_charges": "$1,902.05",
+  "amount_paid": "$0.00",
+  "amount_due": "$1,902.05",
+  "currency": "USD",
+  "confidence": 0.95,
+  "calculation_method": "itemized_with_tax_calculation",
+  "extracted_data": {
+    "invoice_number": "12245",
+    "invoice_date": "07/01/23",
+    "due_date": "07/30/23",
+    "full_checkup": "$745.00",
+    "ear_throat_examination": "$1,000.00",
+    "infection_check_inflammation": "included",
+    "subtotal": "$1,745.00",
+    "tax_rate": "9%",
+    "tax_amount": "$157.05",
+    "total_with_tax": "$1,902.05",
+    "prescription_written": "acute throat infection"
+  }
+}

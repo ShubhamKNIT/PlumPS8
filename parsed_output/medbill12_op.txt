@@ -1,0 +1,23 @@
+{
+  "total_charges": "$904.00",
+  "amount_paid": "$0.00",
+  "amount_due": "$904.00",
+  "currency": "USD",
+  "confidence": 0.95,
+  "calculation_method": "physiotherapy_services_billing",
+  "extracted_data": {
+    "patient_name": "Fred Davidson",
+    "service_date": "29/12/2009",
+    "referring_doctor": "Dr Peter Miles (BHF No. 0320003212343)",
+    "diagnosis_code": "J18.9",
+    "attended_by_gary_van_wyk": "HPCSA: HP5432",
+    "attended_by_cheryl_paterson": "HPCSA: HP9128",
+    "evaluation_simple": "$110.00",
+    "hospital_visits": "multiple",
+    "percussion_therapy": "multiple sessions",
+    "vibration_therapy": "multiple sessions",
+    "postural_drainage": "multiple sessions",
+    "total_due": "$904.00",
+    "payment_terms": "20+ days overdue"
+  }
+}

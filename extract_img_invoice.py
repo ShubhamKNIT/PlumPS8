@@ -80,7 +80,9 @@ def process_image_to_lines(image_path: str) -> List[Tuple[str, float]]:
 
 
 def main():
-    for image_path in ["img/medbill1.png", "img/medbill3.png", "img/medbill20.jpeg"]:
+    imgs = os.listdir('img')
+    for img in imgs:
+        image_path = os.path.join('img', img)
         if os.path.exists(image_path):
             process_image_to_lines(image_path)
 

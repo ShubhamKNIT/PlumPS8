@@ -1,0 +1,19 @@
+{
+  "total_charges": "$600.00",
+  "amount_paid": "$480.00",
+  "amount_due": "$120.00",
+  "currency": "USD",
+  "confidence": 0.98,
+  "calculation_method": "insurance_coverage_calculation",
+  "extracted_data": {
+    "consultation_fee": "$200.00",
+    "blood_test": "$150.00",
+    "xray_imaging": "$200.00",
+    "medication_antibiotics": "$50.00",
+    "total_amount_due": "$600.00",
+    "insurance_provider": "MindStove Insurance",
+    "insurance_coverage": "80% of total bill",
+    "amount_covered_by_insurance": "$480.00",
+    "patient_responsibility": "$120.00"
+  }
+}

@@ -1,0 +1,7 @@
+Pharmacy $} 28.40 [conf: 0.876]
+Emergency Room $ 947.00 [conf: 0.822]
+EKG/ECG $ 84.00 [conf: 1.000]
+Total Charges $_1,059.40 [conf: 0.999]
+Total Payments $ -815.74 [conf: 0.997]
+Total Adjustments $ -143.66 [conf: 1.000]
+Please Pay This Amount $ 100.00 [conf: 0.781]

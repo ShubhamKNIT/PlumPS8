@@ -1,0 +1,23 @@
+{
+  "total_charges": "$11,636.41",
+  "amount_paid": "$0.00",
+  "amount_due": "$11,636.41",
+  "currency": "USD",
+  "confidence": 0.90,
+  "calculation_method": "government_hospital_itemized_billing",
+  "extracted_data": {
+    "ward_class_b1_4_days": "$968.00",
+    "ward_class_b2_4_days": "$880.00",
+    "daily_treatment_fee": "$677.60",
+    "laboratory_investigations": "$4,645.08",
+    "specialised_investigations": "$2,051.31",
+    "drugs_prescriptions_injections": "$1,222.77",
+    "ward_procedures": "$760.65",
+    "consumables": "$288.00",
+    "professional_fees_doctor": "$121.00",
+    "other_procedures": "$22.00",
+    "total_charges": "$11,636.41",
+    "government_grant_applicable": true,
+    "note": "No payment information provided in bill"
+  }
+}

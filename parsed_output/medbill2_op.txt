@@ -1,0 +1,18 @@
+{
+  "total_charges": "$7,434.00",
+  "amount_paid": "$3,934.00",
+  "amount_due": "$3,500.00",
+  "currency": "USD",
+  "confidence": 0.95,
+  "calculation_method": "adjusted_charges_calculation",
+  "extracted_data": {
+    "original_total_charges": "$26,025.00",
+    "total_adjusted_charges": "$7,434.00",
+    "emergency_room_level_iv": "$2,268.00",
+    "ct_scan_abdomen": "$3,273.00",
+    "ultrasound_abdomen": "$1,503.00",
+    "lab_tests": "$390.00",
+    "total_payment_due": "$3,500.00",
+    "unmet_deductible_included": true
+  }
+}

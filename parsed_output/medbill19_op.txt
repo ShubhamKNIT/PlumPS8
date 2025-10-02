@@ -1,0 +1,17 @@
+{
+  "total_charges": "₹22,90,000.00",
+  "amount_paid": "₹0.00",
+  "amount_due": "₹22,90,000.00",
+  "currency": "INR",
+  "confidence": 0.95,
+  "calculation_method": "itemized_total_no_payment_info",
+  "extracted_data": {
+    "accommodation": "₹4,20,000.00",
+    "investigations": "₹4,90,000.00",
+    "medicines_consumables": "₹11,50,000.00",
+    "equipments": "₹1,40,000.00",
+    "professional_charges": "₹90,000.00",
+    "total_charges": "₹22,90,000.00",
+    "note": "No payment or balance information found in bill"
+  }
+}

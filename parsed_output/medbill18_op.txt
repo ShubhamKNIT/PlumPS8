@@ -1,0 +1,26 @@
+{
+  "total_charges": "$7,891,907.00",
+  "amount_paid": "$3,274,438.00",
+  "amount_due": "$4,617,469.00",
+  "currency": "USD",
+  "confidence": 0.97,
+  "calculation_method": "detailed_itemized_bill",
+  "extracted_data": {
+    "medical_surgical_procedure": "$345,333.45",
+    "packages": "$740,750.00",
+    "critical_care_charge": "$1,580,790.00",
+    "drugs": "$1,189,477.01",
+    "medical_consumable": "$385,997.30",
+    "investigation": "$1,475,976.75",
+    "diagnostic": "$216,656.10",
+    "blood_bank": "$158,867.50",
+    "consultation": "$457,185.00",
+    "hospital_charges": "$770,000.00",
+    "admission_charges": "$2,175.00",
+    "equipment_charge": "$251,210.00",
+    "others": "$317,488.40",
+    "total_charges": "$7,891,907.00",
+    "deposits_paid": "$3,274,438.00",
+    "net_payable": "$4,617,469.00"
+  }
+}

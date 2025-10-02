@@ -1,0 +1,20 @@
+{
+  "total_charges": "$7,434.00",
+  "amount_paid": "$3,934.00",
+  "amount_due": "$3,500.00",
+  "currency": "USD",
+  "confidence": 0.95,
+  "calculation_method": "emergency_room_itemized_billing",
+  "extracted_data": {
+    "emergency_room_level_iv": "$2,268.00",
+    "ct_scan_abdomen": "$3,273.00",
+    "ultrasound_abdomen": "$1,503.00",
+    "cbc_platelet_diff": "$140.00",
+    "metabolic_panel_basic": "$145.00",
+    "urinalysis": "$89.00",
+    "venipuncture": "$16.00",
+    "total_payment_due": "$3,500.00",
+    "total_patient_balance_due": "$3,500.00",
+    "includes_unmet_deductible": true
+  }
+}

@@ -1,0 +1,8 @@
+0.0 (Rs.) [conf: 0.759]
+01 Room Rent 1500 1 Day 1,500.00 [conf: 0.999]
+02 Nursing Charge 200 1 Day 200.00 [conf: 0.996]
+03 Duty Doctor Charges 300 1 Day 300.00 [conf: 0.996]
+04 Blood Transplantation Charges 1200 2 Units 2,400.00 [conf: 0.998]
+GRAND TOTAL: 4,400.00 [conf: 1.000]
+Advance : 2,000.00 [conf: 0.991]
+Balance: 2,400.00 [conf: 1.000]

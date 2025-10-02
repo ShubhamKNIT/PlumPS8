@@ -1,0 +1,21 @@
+{
+  "total_charges": "$4,384.00",
+  "amount_paid": "$2,450.06",
+  "amount_due": "$1,933.94",
+  "currency": "USD",
+  "confidence": 0.88,
+  "calculation_method": "hospital_services_with_insurance_adjustments",
+  "extracted_data": {
+    "service_date": "10/2010",
+    "cat_scan_body_service": "$2,752.00",
+    "drug_spec_detail": "$474.00",
+    "laboratory_general": "$623.00",
+    "emergency_room_general": "$446.00",
+    "medical_surgical_supply": "$4,384.00",
+    "sterile_supply": "$89.00",
+    "insurance_payments": "-$1,973.96",
+    "insurance_discounts": "-$476.10",
+    "total_payments_adjustments": "$2,450.06",
+    "account_balance": "$1,933.94"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "total_charges": "$1,518.00",
+  "amount_paid": "$1,368.00",
+  "amount_due": "$150.00",
+  "currency": "USD",
+  "confidence": 0.98,
+  "calculation_method": "account_summary_with_adjustments",
+  "extracted_data": {
+    "statement_date": "August 19",
+    "service_date": "07/29/14 to 07/30/14",
+    "type_of_service": "Womens Serve IP",
+    "account_number": "01-2345678",
+    "radiology": "$764.00",
+    "therapy_services": "$754.00",
+    "total_charges": "$1,518.00",
+    "billed_charges": "$1,518.00",
+    "adjustments": "-$68.00",
+    "insurance_payments": "$1,300.00",
+    "patient_payments": "$0.00",
+    "calculated_paid_amount": "$1,368.00",
+    "balance_due": "$150.00"
+  }
+}

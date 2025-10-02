@@ -1,0 +1,19 @@
+{
+  "total_charges": "$4,001.92",
+  "amount_paid": "$0.00",
+  "amount_due": "$4,001.92",
+  "currency": "USD",
+  "confidence": 0.85,
+  "calculation_method": "subtotal_summation_incomplete_bill",
+  "extracted_data": {
+    "room_and_care": "$1,545.34",
+    "laboratory_subtotal": "$510.34",
+    "lab_chemistry": "$991.06",
+    "lab_hematology": "$441.90",
+    "radiology_diagnostic": "$256.78",
+    "respiratory_services": "partial_amounts_visible",
+    "total_calculated_from_visible": "$3,745.42",
+    "estimated_total": "$4,001.92",
+    "note": "Bill appears incomplete - respiratory services section truncated"
+  }
+}

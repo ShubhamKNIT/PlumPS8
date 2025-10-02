@@ -1,0 +1,16 @@
+{
+  "total_charges": "$20.01",
+  "amount_paid": "$78.18",
+  "amount_due": "$20.01",
+  "currency": "USD",
+  "confidence": 0.97,
+  "calculation_method": "direct_extraction",
+  "extracted_data": {
+    "pharmacy_charges": "$20.01",
+    "patient_payment_made": "$78.18",
+    "customer_number": "74900",
+    "due_date": "09/2/22",
+    "prescription_items": "5 items",
+    "note": "Insurance has paid or denied their portion"
+  }
+}

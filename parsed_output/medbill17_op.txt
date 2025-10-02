@@ -1,0 +1,17 @@
+{
+  "total_charges": "₹4,400.00",
+  "amount_paid": "₹2,000.00",
+  "amount_due": "₹2,400.00",
+  "currency": "INR",
+  "confidence": 0.99,
+  "calculation_method": "direct_summary_amounts",
+  "extracted_data": {
+    "room_rent": "₹1,500.00",
+    "nursing_charge": "₹200.00",
+    "duty_doctor_charges": "₹300.00",
+    "blood_transplantation": "₹2,400.00",
+    "grand_total": "₹4,400.00",
+    "advance_paid": "₹2,000.00",
+    "balance_due": "₹2,400.00"
+  }
+}

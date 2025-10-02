@@ -1,0 +1,15 @@
+{
+  "total_charges": "$293,059.79",
+  "amount_paid": "$20,428.00",
+  "amount_due": "$267,131.79",
+  "currency": "USD",
+  "confidence": 0.98,
+  "calculation_method": "sum_of_hospital_and_professional_fees",
+  "extracted_data": {
+    "hospital_charges": "$287,559.79",
+    "professional_fees": "$5,400.00",
+    "total_calculated": "$292,959.79",
+    "balance_from_bill": "$267,131.79",
+    "payment_made": "$20,428.00"
+  }
+}

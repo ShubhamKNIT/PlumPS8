@@ -1,0 +1,19 @@
+{
+  "total_charges": "$10,150.87",
+  "amount_paid": "$1,839.41",
+  "amount_due": "$8,311.46",
+  "currency": "USD",
+  "confidence": 0.97,
+  "calculation_method": "hospital_services_account_summary",
+  "extracted_data": {
+    "account_number": "907055417",
+    "date_of_service": "10/11/2022",
+    "total_hospital_services": "$10,150.87",
+    "insurance_payments_to_date": "$1,839.41",
+    "due_from_insurance": "$0.00",
+    "patient_payments_to_date": "$0.00",
+    "total_payments_to_date": "$1,839.41",
+    "remaining_account_balance": "$8,311.46",
+    "amount_you_owe": "$8,311.46"
+  }
+}

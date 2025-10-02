@@ -1,0 +1,26 @@
+{
+  "total_charges": "₹34,700.00",
+  "amount_paid": "₹0.00",
+  "amount_due": "₹34,700.00",
+  "currency": "INR",
+  "confidence": 0.98,
+  "calculation_method": "itemized_with_payment_summary",
+  "extracted_data": {
+    "icu_charges": "₹5,500.00",
+    "room_charges": "₹5,000.00",
+    "nursing_charges": "₹200.00",
+    "monitor_charges": "₹2,000.00",
+    "oxygen_charges": "₹2,500.00",
+    "ot_room_charges": "₹4,000.00",
+    "anaesthesia_charges": "₹2,000.00",
+    "gynecologist_charges": "₹8,000.00",
+    "medicine_charges": "₹3,500.00",
+    "investigation_charges": "₹1,700.00",
+    "housekeeping_charges": "₹300.00",
+    "total_amount": "₹34,700.00",
+    "discount": "₹0.00",
+    "net_amount": "₹34,700.00",
+    "bill_amount": "₹34,700.00",
+    "total_receipts": "₹0.00"
+  }
+}
