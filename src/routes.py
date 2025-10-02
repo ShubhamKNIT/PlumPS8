@@ -88,36 +88,3 @@ async def examples():
         return get_examples()
     except Exception as e:
         return {"error": str(e)}
-
-@router.post("/batch")
-async def process_batch(files: list[UploadFile] = File(...)):
-    start_time = time.time()
-    results = []
-    
-    for file in files:
-        if not file.filename.lower().endswith(('.png', '.jpg', '.jpeg')):
-            results.append({"filename": file.filename, "success": False, "error": "Unsupported file type"})
-            continue
-        
-        with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(file.filename)[1]) as temp_file:
-            temp_file.write(await file.read())
-            temp_path = temp_file.name
-        
-        try:
-            response = process_response(image_to_structured_invoice, temp_path)
-            results.append({
-                "filename": file.filename,
-                "success": response["success"],
-                **({"data": response["data"]} if response["success"] else {"error": response["error"]})
-            })
-        finally:
-            os.unlink(temp_path)
-    
-    return {
-        "success": True,
-        "total_files": len(files),
-        "processed_files": sum(1 for r in results if r["success"]),
-        "failed_files": sum(1 for r in results if not r["success"]),
-        "results": results,
-        "processing_time": time.time() - start_time
-    }
