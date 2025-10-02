@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Minimal PaddleOCR Text Recognition"""
-
 import os
 from pathlib import Path
 from datetime import datetime

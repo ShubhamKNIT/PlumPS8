@@ -1,6 +1,6 @@
 import os
-from extract_img_invoice import process_image_to_lines
-from extract_text_invoice import get_structured_invoice
+from service.extractor.extract_img_invoice import process_image_to_lines
+from service.extractor.extract_text_invoice import get_structured_invoice
 
 def text_to_structured_invoice(raw_text: str) -> str:
     structured_invoice = get_structured_invoice(raw_text)

@@ -1,13 +1,8 @@
-#!/usr/bin/env python3
-"""Minimal Line Extractor"""
-
 import os
 from typing import List, Tuple, Dict
-
+from service.utils.paddle_ocr import TextRecognizer
 
 def extract_lines_from_image(image_path: str) -> List[Tuple[str, float]]:
-    from paddle_ocr import TextRecognizer
-    
     if not os.path.exists(image_path):
         return []
     
@@ -79,10 +74,5 @@ def process_image_to_lines(image_path: str) -> List[Tuple[str, float]]:
     return lines_with_confidence
 
 if __name__ == "__main__":
-
-    # imgs = os.listdir('img')
-    # for img in imgs:
-    #     image_path = os.path.join('img', img)
-    #     if os.path.exists(image_path):
     image_path = "sample_image.png"
     process_image_to_lines(image_path)

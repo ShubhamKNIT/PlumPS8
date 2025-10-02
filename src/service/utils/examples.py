@@ -1,6 +1,5 @@
 from random import randint
 
-
 def load_sample_data(i: int) -> str:
     ip, op = "", ""
     with open(f"parsed_img/medbill{i}_clean_lines.txt", "r", encoding="utf-8") as f:
