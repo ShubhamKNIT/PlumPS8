@@ -1,0 +1,26 @@
+```json
+{
+  "total_charges": "$6,470.51",
+  "amount_paid": "$0.00",
+  "amount_due": "$6,470.51",
+  "currency": "USD",
+  "confidence": 0.98,
+  "calculation_method": "direct_summary_amounts",
+  "extracted_data": {
+    "receipt_number": "749002",
+    "date": "30/SEP/2022",
+    "medical_institution": "Jackson Memorial Hospital",
+    "practitioner_name": "Aaron Wolfson",
+    "patient_name": "Sophia Arie Isabelle",
+    "patient_medical_card_creation": "$47.00",
+    "pre_surgery_check_up": "$195.48",
+    "surgery": "$5500.04",
+    "post_surgery_check_up": "$260.72",
+    "rehab_medications": "$430.67",
+    "subtotal": "$6,433.91",
+    "tax_amount": "$36.60",
+    "total_amount": "$6,470.51",
+    "amount_payable": "$6,470.51"
+  }
+}
+```

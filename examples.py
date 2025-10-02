@@ -1,4 +1,4 @@
-from random import random
+from random import randint
 
 
 def load_sample_data(i: int) -> str:
@@ -12,8 +12,8 @@ def load_sample_data(i: int) -> str:
     return ip, op
     
 def get_examples() -> str:
-    i = random.randint(1, 10)
-    j = random.randint(11, 20)
+    i = randint(1, 10)
+    j = randint(11, 20)
     sample_input_1, sample_output_1 = load_sample_data(i)
     sample_input_2, sample_output_2 = load_sample_data(j)
 

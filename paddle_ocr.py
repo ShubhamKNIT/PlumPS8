@@ -60,14 +60,9 @@ class TextRecognizer:
         extracted = self.extract_text(image_path, threshold)
         return bool(extracted and self.save_to_file(extracted, image_path, output_file))
 
-
-def main():
+if __name__ == "__main__":
     recognizer = TextRecognizer()
     for img in ["img/medbill1.png", "img/medbill3.png", "img/medbill20.jpeg"]:
         if os.path.exists(img):
             recognizer.process(img, threshold=0.5)
             break
-
-
-if __name__ == "__main__":
-    main()

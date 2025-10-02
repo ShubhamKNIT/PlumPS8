@@ -63,7 +63,7 @@ def finalize_line_with_confidence(line_elements: List[Dict]) -> Tuple[str, float
 
 
 def save_lines_to_file(lines_with_confidence: List[Tuple[str, float]], image_path: str) -> str:
-    output_file = f"{os.path.splitext(os.path.basename(image_path))[0]}_clean_lines.txt"
+    output_file = f"{os.path.splitext(image_path)[0]}_clean_lines.txt"
     
     with open(output_file, 'w', encoding='utf-8') as f:
         for line_text, confidence in lines_with_confidence:
@@ -80,8 +80,9 @@ def process_image_to_lines(image_path: str) -> List[Tuple[str, float]]:
 
 if __name__ == "__main__":
 
-    imgs = os.listdir('img')
-    for img in imgs:
-        image_path = os.path.join('img', img)
-        if os.path.exists(image_path):
-            process_image_to_lines(image_path)
+    # imgs = os.listdir('img')
+    # for img in imgs:
+    #     image_path = os.path.join('img', img)
+    #     if os.path.exists(image_path):
+    image_path = "sample_image.png"
+    process_image_to_lines(image_path)
