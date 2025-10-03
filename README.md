@@ -1,6 +1,7 @@
 # Medical Bill Parser API
 
-Extract structured data from medical bills using OCR and AI processing.
+- Extract structured data from medical bills using OCR and AI processing.
+- Demo Video: <a href="https://drive.google.com/file/d/1TWImSsr82MD0giKsDePQ_iXUC_TGj8pN/view?usp=sharing">Watch Now</a>
 
 ## Project Structure
 
@@ -60,6 +61,11 @@ PlumPS8/
 
 ## Project Setup
 
+0. **Clone Repository:**
+   ```bash
+   git clone https://github.com/ShubhamKNIT/PlumPS8.git
+   ```
+
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
@@ -79,8 +85,12 @@ PlumPS8/
 4. **Access API:**
    - Server: `http://localhost:8000`
    - Docs: `http://localhost:8000/docs`
+   - Image API: `http://localhost:8000/image`
+   - Text API: `http://localhost:8000/text`
 
 ## Architecture
+
+![Flow Diagram](project_assets/architecture_diagram.png)
 
 **Components:**
 - **FastAPI**: Web server and API framework
@@ -130,7 +140,7 @@ curl -X POST "http://localhost:8000/text" \
 - URL: `{{base_url}}/image`
 - Body: `form-data`
   - Key: `file` (File type)
-  - Value: Select image from `project_assets/`
+  - Value: Select image from `img/` folder or image of your choice
 
 **Text Processing Request:**
 - Method: `POST`
@@ -179,12 +189,14 @@ curl -X POST "http://localhost:8000/text" \
      -F "file=@project_assets/ocr_image1.png"
    ```
 
-## Deployment
+## Deployment with Ngrok
 
 ### Local with Ngrok
+
 ```bash
 # Terminal 1: Start server
-python src/main.py
+cd src
+uvicorn main:app --reload
 
 # Terminal 2: Create public tunnel
 ngrok http 8000
