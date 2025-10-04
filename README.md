@@ -2,7 +2,7 @@
 
 Extract structured data from medical bills using OCR and AI processing.
 
-**Demo Video:** <a href="https://drive.google.com/file/d/1TWImSsr82MD0giKsDePQ_iXUC_TGj8pN/view?usp=sharing">Watch Now</a>
+**Demo Video:** <a href="https://drive.google.com/file/d/17YdJS0-frY4SZkdZmhDnZxKm68PYelO0/view?usp=drive_link">Watch Now</a>
 
 ---
 
@@ -71,6 +71,8 @@ Extract structured data from medical bills using OCR and AI processing.
    # Copy the public URL (e.g., https://abc123.ngrok.io)
    ```
 
+   - Read this for more details: <a href="https://medium.com/@thexpertdev/ngrok-tutorial-for-beginners-how-to-expose-localhost-to-the-internet-and-test-webhooks-70845654fced">Ngrok Medium Article</a>
+
 4. **Access API:**
    - Base URL: Use the `NGROK_URL` or `http://localhost:8000`
 
@@ -87,7 +89,7 @@ Extract structured data from medical bills using OCR and AI processing.
 
 ## Architecture
 
-![Flow Diagram](project_assets/architecture_diagram.png)
+![Flow Diagram](project_assets/flow_diagram.png)
 
 **Processing Flow:**
 1. **Image Input**
