@@ -15,11 +15,11 @@ def image_to_structured_invoice(image_path: str) -> str:
 
     return get_structured_invoice(text_invoice)
 
-if __name__ == "__main__":
-    image_path = "sample_image.png"
-    output = image_to_structured_invoice(image_path)
+# if __name__ == "__main__":
+#     image_path = "sample_image.png"
+#     output = image_to_structured_invoice(image_path)
 
-    with open("output.txt", "w", encoding="utf-8") as f:
-        f.write(output)
+#     with open("output.txt", "w", encoding="utf-8") as f:
+#         f.write(output)
 
-    print(output)
+#     print(output)

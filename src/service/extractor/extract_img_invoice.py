@@ -73,6 +73,6 @@ def process_image_to_lines(image_path: str) -> List[Tuple[str, float]]:
         save_lines_to_file(lines_with_confidence, image_path)
     return lines_with_confidence
 
-if __name__ == "__main__":
-    image_path = "sample_image.png"
-    process_image_to_lines(image_path)
+# if __name__ == "__main__":
+#     image_path = "sample_image.png"
+#     process_image_to_lines(image_path)
